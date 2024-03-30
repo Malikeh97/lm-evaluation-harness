@@ -1,9 +1,11 @@
-def process_docs(dataset: datasets.Dataset):
-    def _helper(doc):
-      # modifies the contents of a single
-      # document in our dataset.
-      doc["choices"] = ["Yes", "No"]
-      doc["gold"] = doc["answer"]
-      return doc
+def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:
+    def _process_doc(doc):
+        ctx = doc["ctx_a"] + " " + doc["ctx_b"].capitalize()
+        out_doc = {
+            "query": doc["inputs"],
+            "choices": ["Yes", "No"],
+            "gold": doc["answer"],
+        }
+        return out_doc
 
-    return dataset.map(_helper) # returns back a datasets.Dataset object
+    return dataset.map(_process_doc)
