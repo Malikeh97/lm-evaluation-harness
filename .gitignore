@@ -22,3 +22,4 @@ lm_eval/caching/.cache
 wandb
 examples/wandb
 lm_eval/tasks/legalbench/notes.txt
+lm_eval/tasks/legalbench/multiple_choice/legalbench_tasks.py
