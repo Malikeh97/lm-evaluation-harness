@@ -1,3 +1,3 @@
 dataset_name: diversity_3
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_diversity_3_multiple_choice

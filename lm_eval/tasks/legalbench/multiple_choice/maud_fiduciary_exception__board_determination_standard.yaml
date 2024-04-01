@@ -1,3 +1,3 @@
 dataset_name: maud_fiduciary_exception__board_determination_standard
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_maud_fiduciary_exception__board_determination_standard_multiple_choice

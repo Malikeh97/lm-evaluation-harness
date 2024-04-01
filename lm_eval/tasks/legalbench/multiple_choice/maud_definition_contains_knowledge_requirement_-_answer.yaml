@@ -1,3 +1,3 @@
 dataset_name: maud_definition_contains_knowledge_requirement_-_answer
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_maud_definition_contains_knowledge_requirement_-_answer_multiple_choice

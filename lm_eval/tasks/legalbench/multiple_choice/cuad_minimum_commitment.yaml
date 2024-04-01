@@ -1,3 +1,3 @@
 dataset_name: cuad_minimum_commitment
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_cuad_minimum_commitment_multiple_choice

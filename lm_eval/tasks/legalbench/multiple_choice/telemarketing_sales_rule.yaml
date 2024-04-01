@@ -1,3 +1,3 @@
 dataset_name: telemarketing_sales_rule
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_telemarketing_sales_rule_multiple_choice

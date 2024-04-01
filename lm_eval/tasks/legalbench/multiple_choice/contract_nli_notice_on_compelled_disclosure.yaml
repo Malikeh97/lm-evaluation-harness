@@ -1,3 +1,3 @@
 dataset_name: contract_nli_notice_on_compelled_disclosure
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_contract_nli_notice_on_compelled_disclosure_multiple_choice

@@ -1,3 +1,3 @@
 dataset_name: contract_nli_permissible_acquirement_of_similar_information
-include: multiple_choice_template_yaml
+include: ../multiple_choice_template_yaml
 task: legalbench_contract_nli_permissible_acquirement_of_similar_information_multiple_choice
