@@ -1,5 +1,5 @@
 group: legalbench_multiple_choice
-dataset_path: Malikeh1375/legalbench_instruct
+dataset_path: Malikeh1375/legalbench_exact_match
 dataset_kwargs:
   # num_shots: 0 # TODO: num of shots for `bigbench` HF dataset should be controlled through this, not through the typical methods
   # subtask_name: null
