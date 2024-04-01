@@ -1,0 +1,3 @@
+dataset_name: personal_jurisdiction
+include: multiple_choice_template_yaml
+task: legalbench_personal_jurisdiction_multiple_choice

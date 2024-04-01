@@ -1,0 +1,3 @@
+dataset_name: cuad_post-termination_services
+include: multiple_choice_template_yaml
+task: legalbench_cuad_post-termination_services_multiple_choice

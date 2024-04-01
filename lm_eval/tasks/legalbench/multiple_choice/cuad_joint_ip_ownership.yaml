@@ -1,0 +1,3 @@
+dataset_name: cuad_joint_ip_ownership
+include: multiple_choice_template_yaml
+task: legalbench_cuad_joint_ip_ownership_multiple_choice

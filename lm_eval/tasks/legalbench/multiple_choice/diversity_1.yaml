@@ -1,0 +1,3 @@
+dataset_name: diversity_1
+include: multiple_choice_template_yaml
+task: legalbench_diversity_1_multiple_choice

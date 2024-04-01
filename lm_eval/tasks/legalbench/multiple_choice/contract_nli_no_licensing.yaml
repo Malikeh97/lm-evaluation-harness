@@ -1,0 +1,3 @@
+dataset_name: contract_nli_no_licensing
+include: multiple_choice_template_yaml
+task: legalbench_contract_nli_no_licensing_multiple_choice

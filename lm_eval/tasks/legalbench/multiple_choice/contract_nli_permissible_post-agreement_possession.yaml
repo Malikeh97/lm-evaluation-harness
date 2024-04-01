@@ -1,0 +1,3 @@
+dataset_name: contract_nli_permissible_post-agreement_possession
+include: multiple_choice_template_yaml
+task: legalbench_contract_nli_permissible_post-agreement_possession_multiple_choice

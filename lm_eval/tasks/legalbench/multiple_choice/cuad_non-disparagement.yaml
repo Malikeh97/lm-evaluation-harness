@@ -1,0 +1,3 @@
+dataset_name: cuad_non-disparagement
+include: multiple_choice_template_yaml
+task: legalbench_cuad_non-disparagement_multiple_choice

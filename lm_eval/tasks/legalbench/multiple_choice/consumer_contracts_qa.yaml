@@ -1,0 +1,3 @@
+dataset_name: consumer_contracts_qa
+include: multiple_choice_template_yaml
+task: legalbench_consumer_contracts_qa_multiple_choice

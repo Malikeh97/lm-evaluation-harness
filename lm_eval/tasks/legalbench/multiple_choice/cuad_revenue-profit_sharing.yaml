@@ -1,0 +1,3 @@
+dataset_name: cuad_revenue-profit_sharing
+include: multiple_choice_template_yaml
+task: legalbench_cuad_revenue-profit_sharing_multiple_choice

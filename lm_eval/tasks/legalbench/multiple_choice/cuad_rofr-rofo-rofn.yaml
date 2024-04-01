@@ -1,0 +1,3 @@
+dataset_name: cuad_rofr-rofo-rofn
+include: multiple_choice_template_yaml
+task: legalbench_cuad_rofr-rofo-rofn_multiple_choice

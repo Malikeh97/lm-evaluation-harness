@@ -1,0 +1,3 @@
+dataset_name: cuad_notice_period_to_terminate_renewal
+include: multiple_choice_template_yaml
+task: legalbench_cuad_notice_period_to_terminate_renewal_multiple_choice

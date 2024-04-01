@@ -1,0 +1,3 @@
+dataset_name: contract_nli_sharing_with_employees
+include: multiple_choice_template_yaml
+task: legalbench_contract_nli_sharing_with_employees_multiple_choice

@@ -1,0 +1,3 @@
+dataset_name: legal_reasoning_causality
+include: multiple_choice_template_yaml
+task: legalbench_legal_reasoning_causality_multiple_choice

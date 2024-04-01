@@ -1,0 +1,3 @@
+dataset_name: cuad_expiration_date
+include: multiple_choice_template_yaml
+task: legalbench_cuad_expiration_date_multiple_choice

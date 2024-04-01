@@ -1,0 +1,3 @@
+dataset_name: maud_type_of_consideration
+include: multiple_choice_template_yaml
+task: legalbench_maud_type_of_consideration_multiple_choice

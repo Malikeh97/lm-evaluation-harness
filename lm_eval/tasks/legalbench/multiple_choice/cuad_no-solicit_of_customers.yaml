@@ -1,0 +1,3 @@
+dataset_name: cuad_no-solicit_of_customers
+include: multiple_choice_template_yaml
+task: legalbench_cuad_no-solicit_of_customers_multiple_choice

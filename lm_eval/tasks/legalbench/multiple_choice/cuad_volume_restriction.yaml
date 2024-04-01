@@ -1,0 +1,3 @@
+dataset_name: cuad_volume_restriction
+include: multiple_choice_template_yaml
+task: legalbench_cuad_volume_restriction_multiple_choice

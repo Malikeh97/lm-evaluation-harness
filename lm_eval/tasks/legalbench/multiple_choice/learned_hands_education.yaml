@@ -1,0 +1,3 @@
+dataset_name: learned_hands_education
+include: multiple_choice_template_yaml
+task: legalbench_learned_hands_education_multiple_choice

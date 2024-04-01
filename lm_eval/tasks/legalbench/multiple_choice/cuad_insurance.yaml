@@ -1,0 +1,3 @@
+dataset_name: cuad_insurance
+include: multiple_choice_template_yaml
+task: legalbench_cuad_insurance_multiple_choice

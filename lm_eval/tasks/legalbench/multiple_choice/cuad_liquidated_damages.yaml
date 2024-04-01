@@ -1,0 +1,3 @@
+dataset_name: cuad_liquidated_damages
+include: multiple_choice_template_yaml
+task: legalbench_cuad_liquidated_damages_multiple_choice

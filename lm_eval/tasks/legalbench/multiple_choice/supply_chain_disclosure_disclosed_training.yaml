@@ -1,0 +1,3 @@
+dataset_name: supply_chain_disclosure_disclosed_training
+include: multiple_choice_template_yaml
+task: legalbench_supply_chain_disclosure_disclosed_training_multiple_choice
