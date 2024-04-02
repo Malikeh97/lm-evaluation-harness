@@ -1,0 +1,3 @@
+dataset_name: jcrew_blocker
+include: ../multiple_choice_template_yaml
+task: legalbench_jcrew_blocker_multiple_choice
