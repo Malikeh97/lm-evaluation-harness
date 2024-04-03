@@ -142,25 +142,25 @@ Homepage: https://hazyresearch.stanford.edu/legalbench/
 * `cuad_non-disparagement`: Classify if the clause requires a party not to disparage the counterparty.
 * `cuad_non-transferable_license`: Classify if the clause limits the ability of a party to transfer the license being granted to a third party.
 * `cuad_notice_period_to_terminate_renewal`: Classify if the clause specifies a notice period required to terminate renewal.
-* `cuad_post-termination_services`: 1-sentence description of what this particular task does
-* `cuad_price_restrictions`: 1-sentence description of what this particular task does
-* `cuad_renewal_term`: 1-sentence description of what this particular task does
-* `cuad_revenue-profit_sharing`: 1-sentence description of what this particular task does
-* `cuad_rofr-rofo-rofn`: 1-sentence description of what this particular task does
-* `cuad_source_code_escrow`: 1-sentence description of what this particular task does
-* `cuad_termination_for_convenience`: 1-sentence description of what this particular task does
-* `cuad_third_party_beneficiary`: 1-sentence description of what this particular task does
-* `cuad_uncapped_liability`: 1-sentence description of what this particular task does
-* `cuad_unlimited-all-you-can-eat-license`: 1-sentence description of what this particular task does
-* `cuad_volume_restriction`: 1-sentence description of what this particular task does
-* `cuad_warranty_duration`: 1-sentence description of what this particular task does
-* `definition_classification`: 1-sentence description of what this particular task does
-* `diversity_1`: 1-sentence description of what this particular task does
-* `diversity_2`: 1-sentence description of what this particular task does
-* `diversity_3`: 1-sentence description of what this particular task does
-* `diversity_4`: 1-sentence description of what this particular task does
-* `diversity_5`: 1-sentence description of what this particular task does
-* `diversity_6`: 1-sentence description of what this particular task does
+* `cuad_post-termination_services`: Classify if the clause subjects a party to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments.
+* `cuad_price_restrictions`: Classify if the clause places a restriction on the ability of a party to raise or reduce prices of technology, goods, or services provided.
+* `cuad_renewal_term`: Classify if the clause specifies a renewal term.
+* `cuad_revenue-profit_sharing`: Classify if the clause require a party to share revenue or profit with the counterparty for any technology, goods, or services.
+* `cuad_rofr-rofo-rofn`: Classify if the clause grant one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services.
+* `cuad_source_code_escrow`: Classify if the clause requires one party to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy, insolvency, etc.).
+* `cuad_termination_for_convenience`: Classify if the clause specifies that one party can terminate this contract without cause (solely by giving a notice and allowing a waiting period to expire).
+* `cuad_third_party_beneficiary`: Classify if the clause specifies that that there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party.
+* `cuad_uncapped_liability`: Classify if the clause specifies that a party’s liability is uncapped upon the breach of its obligation in the contract. This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.
+* `cuad_unlimited-all-you-can-eat-license`: Classify if the clause grants one party an “enterprise,” “all you can eat” or unlimited usage license.
+* `cuad_volume_restriction`: Classify if the clause specifies a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold.
+* `cuad_warranty_duration`: Classify if the clause specifies a duration of any warranty against defects or errors in technology, products, or services provided under the contract.
+* `definition_classification`: Given a sentence from a Supreme Court opinion, classify whether or not that sentence offers a definition of a term.
+* `diversity_1`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 1).
+* `diversity_2`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 2).
+* `diversity_3`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 3).
+* `diversity_4`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 4).
+* `diversity_5`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 5).
+* `diversity_6`: Given a set of facts about the citizenships of plaintiffs and defendants and the amounts associated with claims, determine if the criteria for diversity jurisdiction have been met (variant 6).
 * `function_of_decision_section`: 1-sentence description of what this particular task does
 * `hearsay`: 1-sentence description of what this particular task does
 * `insurance_policy_interpretation`: 1-sentence description of what this particular task does
