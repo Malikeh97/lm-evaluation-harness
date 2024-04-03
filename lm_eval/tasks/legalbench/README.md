@@ -2,13 +2,13 @@
 
 ### Paper
 
-Title: `LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models`
+Title: LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models
 
-Abstract: `https://arxiv.org/pdf/2308.11462.pdf`
+Abstract: https://arxiv.org/pdf/2308.11462.pdf
 
-`The LegalBench project is an ongoing open science effort to collaboratively curate tasks for evaluating legal reasoning in English large language models (LLMs). The benchmark currently consists of 162 tasks gathered from 40 contributors.`
+The LegalBench project is an ongoing open science effort to collaboratively curate tasks for evaluating legal reasoning in English large language models (LLMs). The benchmark currently consists of 162 tasks gathered from 40 contributors.
 
-Homepage: `https://hazyresearch.stanford.edu/legalbench/`
+Homepage: https://hazyresearch.stanford.edu/legalbench/
 
 
 ### Citation
