@@ -1,3 +1,4 @@
 dataset_name: insurance_policy_interpretation
 include: ../multiple_choice_template_yaml
 task: legalbench_insurance_policy_interpretation_multiple_choice
+group: legalbench_exact_match

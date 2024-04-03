@@ -1,3 +1,4 @@
 dataset_name: cuad_exclusivity
 include: ../multiple_choice_template_yaml
 task: legalbench_cuad_exclusivity_multiple_choice
+group: legalbench_exact_match

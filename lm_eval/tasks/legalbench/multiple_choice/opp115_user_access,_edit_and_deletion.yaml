@@ -1,3 +1,4 @@
 dataset_name: opp115_user_access,_edit_and_deletion
 include: ../multiple_choice_template_yaml
 task: legalbench_opp115_user_access,_edit_and_deletion_multiple_choice
+group: legalbench_exact_match
