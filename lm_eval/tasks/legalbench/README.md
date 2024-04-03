@@ -10,7 +10,6 @@ The LegalBench project is an ongoing open science effort to collaboratively cura
 
 Homepage: https://hazyresearch.stanford.edu/legalbench/
 
-
 ### Citation
 
 ```
@@ -97,52 +96,52 @@ Homepage: https://hazyresearch.stanford.edu/legalbench/
 * `legalbench_RHETORIC_TASKS`: Rhetorical-understanding tasks which require an LLM to reason about legal argumentation and analysis (e.g., identifying textualist arguments).
 
 #### Tasks
-* `abercrombie`: 1-sentence description of what this particular task does
-* `canada_tax_court_outcomes`: 1-sentence description of what this particular task does
-* `citation_prediction_classification`: 1-sentence description of what this particular task does
-* `consumer_contracts_qa`: 1-sentence description of what this particular task does
-* `contract_nli_confidentiality_of_agreement`: 1-sentence description of what this particular task does
-* `contract_nli_explicit_identification`: 1-sentence description of what this particular task does
-* `contract_nli_inclusion_of_verbally_conveyed_information`: 1-sentence description of what this particular task does
-* `contract_nli_limited_use`: 1-sentence description of what this particular task does
-* `contract_nli_no_licensing`: 1-sentence description of what this particular task does
-* `contract_nli_notice_on_compelled_disclosure`: 1-sentence description of what this particular task does
-* `contract_nli_permissible_acquirement_of_similar_information`: 1-sentence description of what this particular task does
-* `contract_nli_permissible_copy`: 1-sentence description of what this particular task does
-* `contract_nli_permissible_development_of_similar_information`: 1-sentence description of what this particular task does
-* `contract_nli_permissible_post-agreement_possession`: 1-sentence description of what this particular task does
-* `contract_nli_return_of_confidential_information`: 1-sentence description of what this particular task does
-* `contract_nli_sharing_with_employees`: 1-sentence description of what this particular task does
-* `contract_nli_sharing_with_third-parties`: 1-sentence description of what this particular task does
-* `contract_nli_survival_of_obligations`: 1-sentence description of what this particular task does
-* `contract_qa`: 1-sentence description of what this particular task does
-* `corporate_lobbying`: 1-sentence description of what this particular task does
-* `cuad_affiliate_license-licensee`: 1-sentence description of what this particular task does
-* `cuad_affiliate_license-licensor`: 1-sentence description of what this particular task does
-* `cuad_anti-assignment`: 1-sentence description of what this particular task does
-* `cuad_audit_rights`: 1-sentence description of what this particular task does
-* `cuad_cap_on_liability`: 1-sentence description of what this particular task does
-* `cuad_change_of_control`: 1-sentence description of what this particular task does
-* `cuad_competitive_restriction_exception`: 1-sentence description of what this particular task does
-* `cuad_covenant_not_to_sue`: 1-sentence description of what this particular task does
-* `cuad_effective_date`: 1-sentence description of what this particular task does
-* `cuad_exclusivity`: 1-sentence description of what this particular task does
-* `cuad_expiration_date`: 1-sentence description of what this particular task does
-* `cuad_governing_law`: 1-sentence description of what this particular task does
-* `cuad_insurance`: 1-sentence description of what this particular task does
-* `cuad_ip_ownership_assignment`: 1-sentence description of what this particular task does
-* `cuad_irrevocable_or_perpetual_license`: 1-sentence description of what this particular task does
-* `cuad_joint_ip_ownership`: 1-sentence description of what this particular task does
-* `cuad_license_grant`: 1-sentence description of what this particular task does
-* `cuad_liquidated_damages`: 1-sentence description of what this particular task does
-* `cuad_minimum_commitment`: 1-sentence description of what this particular task does
-* `cuad_most_favored_nation`: 1-sentence description of what this particular task does
-* `cuad_no-solicit_of_customers`: 1-sentence description of what this particular task does
-* `cuad_no-solicit_of_employees`: 1-sentence description of what this particular task does
-* `cuad_non-compete`: 1-sentence description of what this particular task does
-* `cuad_non-disparagement`: 1-sentence description of what this particular task does
-* `cuad_non-transferable_license`: 1-sentence description of what this particular task does
-* `cuad_notice_period_to_terminate_renewal`: 1-sentence description of what this particular task does
+* `abercrombie`: Determine the Abercrombie classification for a mark/product pair.
+* `canada_tax_court_outcomes`: Classify whether an excerpt from a Canada Tax Court decision includes the outcome of the appeal, and if so, specify whether the appeal was allowed or dismissed.
+* `citation_prediction_classification`: Given a legal statement and a case citation, determine if the citation is supportive of the legal statement.
+* `consumer_contracts_qa`: Answer yes/no questions on the rights and obligations created by clauses in terms of services agreements.
+* `contract_nli_confidentiality_of_agreement`: Identify if the clause provides that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+* `contract_nli_explicit_identification`: Identify if the clause provides that all Confidential Information shall be expressly identified by the Disclosing Party.
+* `contract_nli_inclusion_of_verbally_conveyed_information`: Identify if the clause provides that Confidential Information may include verbally conveyed information.
+* `contract_nli_limited_use`: Identify if the clause provides that the Receiving Party shall not use any Confidential Information for any purpose other than the purposes stated in Agreement.
+* `contract_nli_no_licensing`: Identify if the clause provides that the Agreement shall not grant Receiving Party any right to Confidential Information.
+* `contract_nli_notice_on_compelled_disclosure`: Identify if the clause provides that the Receiving Party shall notify Disclosing Party in case Receiving Party is required by law, regulation or judicial process to disclose any Confidential Information.
+* `contract_nli_permissible_acquirement_of_similar_information`: Identify if the clause provides that the Receiving Party may acquire information similar to Confidential Information from a third party.
+* `contract_nli_permissible_copy`: Identify if the clause provides that the Receiving Party may create a copy of some Confidential Information in some circumstances.
+* `contract_nli_permissible_development_of_similar_information`: Identify if the clause provides that the Receiving Party may independently develop information similar to Confidential Information.
+* `contract_nli_permissible_post-agreement_possession`: Identify if the clause provides that the Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information.
+* `contract_nli_return_of_confidential_information`: Identify if the clause provides that the Receiving Party shall destroy or return some Confidential Information upon the termination of Agreement.
+* `contract_nli_sharing_with_employees`: Identify if the clause provides that the Receiving Party may share some Confidential Information with some of Receiving Party’s employees.
+* `contract_nli_sharing_with_third-parties`: Identify if the clause provides that the Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors).
+* `contract_nli_survival_of_obligations`: Identify if the clause provides that ome obligations of Agreement may survive termination of Agreement.
+* `contract_qa`: Answer yes/no questions about whether contractual clauses discuss particular issues.
+* `corporate_lobbying`: Predict if a proposed bill is relevant to a company given information about the bill and the company.
+* `cuad_affiliate_license-licensee`: Classify if a clause describes a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor.
+* `cuad_affiliate_license-licensor`: Classify if the clause describes a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor.
+* `cuad_anti-assignment`: Classify if the clause requires consent or notice of a party if the contract is assigned to a third party.
+* `cuad_audit_rights`: Classify if the clause gives a party the right to audit the books, records, or physical locations of the counterparty to ensure compliance with the contract.
+* `cuad_cap_on_liability`: Classify if the clause specifies a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.
+* `cuad_change_of_control`: Classify if the clause gives one party the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law.
+* `cuad_competitive_restriction_exception`: Classify if the clause mentions exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers.
+* `cuad_covenant_not_to_sue`: Classify if the clause specifies that a party is restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract.
+* `cuad_effective_date`: Classify if the clause specifies the date upon which the agreement becomes effective.
+* `cuad_exclusivity`: Classify if the clause specifies exclusive dealing commitment with the counterparty. This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on collaborating or working with other parties), whether during the contract or after the contract ends (or both).
+* `cuad_expiration_date`: Classify if the clause specifies the date upon which the initial term expires.
+* `cuad_governing_law`: Classify if the clause specifies which state/country’s law governs the contract.
+* `cuad_insurance`: Classify if clause creates a requirement for insurance that must be maintained by one party for the benefit of the counterparty.
+* `cuad_ip_ownership_assignment`: Classify if the clause specifies that intellectual property created by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events.
+* `cuad_irrevocable_or_perpetual_license`: Classify if the clause specifies a license grant that is irrevocable or perpetual.
+* `cuad_joint_ip_ownership`: Classify if the clause provides for joint or shared ownership of intellectual property between the parties to the contract.
+* `cuad_license_grant`: Classify if the clause contains a license granted by one party to its counterparty.
+* `cuad_liquidated_damages`: Classify if the clause awards either party liquidated damages for breach or a fee upon the termination of a contract (termination fee).
+* `cuad_minimum_commitment`: lassify if the clause specifies a minimum order size or minimum amount or units pertime period that one party must buy from the counterparty.
+* `cuad_most_favored_nation`: Does the clause state that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms?
+* `cuad_no-solicit_of_customers`: Classify if the clause restricts a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both).
+* `cuad_no-solicit_of_employees`: Classify if the clause restricts a party’s soliciting or hiring employees and/or contractors from the counterparty, whether during the contract or after the contract ends (or both).
+* `cuad_non-compete`: Classify if the clause restricts the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector.
+* `cuad_non-disparagement`: Classify if the clause requires a party not to disparage the counterparty.
+* `cuad_non-transferable_license`: Classify if the clause limits the ability of a party to transfer the license being granted to a third party.
+* `cuad_notice_period_to_terminate_renewal`: Classify if the clause specifies a notice period required to terminate renewal.
 * `cuad_post-termination_services`: 1-sentence description of what this particular task does
 * `cuad_price_restrictions`: 1-sentence description of what this particular task does
 * `cuad_renewal_term`: 1-sentence description of what this particular task does
