@@ -1,3 +1,3 @@
 dataset_name: maud_cor_standard_(intervening_event)
 include: ../multiple_choice_template_yaml
-task: legalbench_maud_cor_standard_(intervening_event)_multiple_choice
+task: legalbench_maud_cor_standard_intervening_event_multiple_choice
