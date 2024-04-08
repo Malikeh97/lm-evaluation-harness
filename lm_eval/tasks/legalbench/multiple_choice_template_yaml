@@ -1,5 +1,5 @@
 group: legalbench_multiple_choice
-dataset_path: Malikeh1375/legalbench_exact_match
+dataset_path: arcee-ai/legalbench_tasks
 dataset_kwargs:
 
 output_type: multiple_choice
